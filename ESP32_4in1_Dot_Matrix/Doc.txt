@@ -1,0 +1,18 @@
+ESP32 with 4-in-1 Dot Matrix LED Display
+
+Hardware:
+- ESP32 board
+- MAX7219 4-in-1 Dot Matrix Display
+- 5V power adapter
+
+Software:
+- Arduino IDE
+- MD_MAX72XX (Library)
+- MD_Parola (Library)
+
+Connection:
+- Power > VCC of LED and Vin of ESP32
+- GND   > GND of LED and GND of ESP32
+- DIN   > Pin 23
+- CS    > Pin 21
+- CLK   > Pin 18
