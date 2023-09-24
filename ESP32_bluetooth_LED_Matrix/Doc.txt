@@ -1,0 +1,27 @@
+ESP32 with 4-in-1 Dot Matrix LED Display
+
+Hardware:
+- ESP32 board
+- MAX7219 4-in-1 Dot Matrix Display
+- 5V power adapter
+
+Software:
+- Arduino IDE
+- MD_MAX72XX (Library)
+- MD_Parola (Library)
+- BT Terminal mobile app
+
+Connection:
+- Power > VCC of LED and Vin of ESP32
+- GND   > GND of LED and GND of ESP32
+- DIN   > Pin 23
+- CS    > Pin 21
+- CLK   > Pin 18
+
+
+Operation:
+- Upload code to your ESP32 board.
+- Download BT Terminal app from play store
+- Turn bluetooth on mobile device: search for new devices and pair with ESP32.
+- Open BT Terminal app, click on "Connect" - list of paired devices should pop up. Click on ESP32 to connect.
+- Type anything you want on the text bar then click "Send", it shoul display on the LED matrix in scroll format.
